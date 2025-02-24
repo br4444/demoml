@@ -3,29 +3,24 @@
 Crée un environnement virtuelle
 ```
 pip install virtualenv
-python3 -m venv nom_venv
+python3 -m venv demo_venv
 ```
 
 Entrer dans environnement virtuelle
 ```
 windows:
-nom_venv/Scripts/activate
+demo_venv/Scripts/activate
 ```
 
 ```
 linux:
-source nom_venv/bin/activate
+source demo_venv/bin/activate
 ```
 
 # Installation
 ```
-pip install -r requirments.txt
+pip install -r requirements.txt
 ```
-
-# Télécharger les données titanic
-https://github.com/datasciencedojo/datasets/blob/master/titanic.csv
-
-mettre dans le dossier data
 
 
 <!-- 
